@@ -7,4 +7,4 @@ Ceci est un guide d'utilisation de l'application Zsoft Bank :
 
 2/ Si vous décidez de faire un dépôt ou un retrait, le montant entré doit être compris entre 10 Euros (valeur minimale) et 10000 Euros (valeur maximale). Si cette contrainte n'est pas respectée vous recevrez une nouvelle notification.
 
-3/ Apres avoir effectué un dépôt ou un retrait, vous pourrez accéder a votre solde via le bouton dédié.
+3/ Après avoir effectué un dépôt ou un retrait, vous pourrez accéder a votre solde via le bouton dédié.
