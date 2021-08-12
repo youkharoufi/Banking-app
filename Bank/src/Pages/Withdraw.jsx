@@ -32,7 +32,7 @@ const Withdraw=(props)=>{
 
         if(amount<10 || amount>10000){
             setError({
-                title:'Veuillez entrer un montant supèrieur a 10 euros et inférieur à 10000 euros',
+                title:'Veuillez entrer un montant supérieur a 10 euros et inférieur à 10000 euros',
                 message:'Merci de recommencer...'
             })
             return;
@@ -55,7 +55,7 @@ const Withdraw=(props)=>{
 
         if(amount<10 || amount>10000){
             setError({
-                title:'Veuillez entrer un montant supèrieur a 10 euros et inférieur à 10000 euros',
+                title:'Veuillez entrer un montant supérieur a 10 euros et inférieur à 10000 euros',
                 message:'Merci de recommencer...'
             })
             return;
