@@ -14,7 +14,7 @@
 }
 
 .accueil h2 {
-  display: inline;
+  display: block;
   color:rebeccapurple;
   font-weight: bold;
   margin-bottom: 0.5rem;
