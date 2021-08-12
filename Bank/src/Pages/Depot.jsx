@@ -41,7 +41,7 @@ let a=createContext(userContext);
 
                 if(amount<10 || amount>10000){
                     setError({
-                        title:'Veuillez entrer un montant superieur a 10 euros et inferieur a 10000 euros',
+                        title:'Veuillez entrer un montant supérieur a 10 euros et inférieur à 10000 euros',
                         message:'Merci de recommencer...'
                     })
                     return;
@@ -50,7 +50,7 @@ let a=createContext(userContext);
             
                 setStateNotif(true);
                 setMsg({
-                    title:'Votre depot a bien ete pris en compte',
+                    title:'Votre depot a bien été pris en compte',
                     message:'Merci de votre confiance...'
                 })        
                 
@@ -63,7 +63,7 @@ let a=createContext(userContext);
 
                 if(amount<10 || amount>10000){
                     setError({
-                        title:'Veuillez entrer un montant superieur a 10 euros et inferieur a 10000 euros',
+                        title:'Veuillez entrer un montant supérieur a 10 euros et inférieur à 10000 euros',
                         message:'Merci de recommencer...'
                     })
                     return;
@@ -88,7 +88,8 @@ let a=createContext(userContext);
             }
 
             msg3 = parseInt(msg2)+parseInt(amount);     
-            a=parseInt(amount);      
+            a=parseInt(amount);    
+            
 
         
             return(
@@ -109,7 +110,7 @@ let a=createContext(userContext);
                                 <Button onClick={notif}>Déposer</Button>
                                 <Button onClick={state1}>Accéder à vos comptes</Button>
                                 <Button onClick={preced}>Deconnexion</Button>
-                                <h2>Votre solde est de : {msg3} €</h2>
+                                <h2>Votre solde sera de : {msg3} €</h2>
                                 <h2>Mouvement : + {a} €</h2>
                                 </Card>   
                         </form>
