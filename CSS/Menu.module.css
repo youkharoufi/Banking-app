@@ -1,0 +1,21 @@
+.menu {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+  }
+
+.menu div{
+    margin:0 auto;
+    text-align:center;
+    background-color:darkseagreen;
+    margin:2px;
+    border-radius:50px;
+    border:5px groove purple;
+}
+
+.menu h2{
+    text-align:center;
+    margin:0 auto;
+    color: white;
+}
