@@ -32,7 +32,7 @@ const Withdraw=(props)=>{
 
         if(amount<10 || amount>10000){
             setError({
-                title:'Veuillez entrer un montant superieur a 10 euros et inferieur a 10000 euros',
+                title:'Veuillez entrer un montant supèrieur a 10 euros et inférieur à 10000 euros',
                 message:'Merci de recommencer...'
             })
             return;
@@ -41,7 +41,7 @@ const Withdraw=(props)=>{
     
         setStateNotif(true);
         setMsg({
-            title:'Votre retrait a bien ete pris en compte',
+            title:'Votre retrait a bien été pris en compte',
             message:'Merci de votre confiance...'
         })
 
@@ -55,7 +55,7 @@ const Withdraw=(props)=>{
 
         if(amount<10 || amount>10000){
             setError({
-                title:'Veuillez entrer un montant superieur a 10 euros et inferieur a 10000 euros',
+                title:'Veuillez entrer un montant supèrieur a 10 euros et inférieur à 10000 euros',
                 message:'Merci de recommencer...'
             })
             return;
@@ -99,7 +99,7 @@ const Withdraw=(props)=>{
                         <Button onClick={state1}>Accéder à vos comptes</Button>
                         <Button onClick={preced}>Deconnexion</Button>
 
-                        <h2>Votre solde est de : {msg4} €</h2>
+                        <h2>Votre solde sera de : {msg4} €</h2>
                         <h2>Mouvement : - {a} €</h2>
                     
                 </Card>
