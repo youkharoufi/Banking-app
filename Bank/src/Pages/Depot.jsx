@@ -50,7 +50,7 @@ let a=createContext(userContext);
             
                 setStateNotif(true);
                 setMsg({
-                    title:'Votre depot a bien été pris en compte',
+                    title:'Votre dépôt a bien été pris en compte',
                     message:'Merci de votre confiance...'
                 })        
                 
