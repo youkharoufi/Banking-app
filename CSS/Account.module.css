@@ -1,0 +1,24 @@
+.account{
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+}
+
+.account h2{
+    color:white;
+    text-align:center;
+    margin:0 auto;
+}
+
+.account input {
+    font: inherit;
+    display: inline;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color:lightskyblue;
+    border-radius:50px;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+    text-align:center;
+  }
