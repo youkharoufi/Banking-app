@@ -49,7 +49,7 @@ const Accueil=(props)=>{
         history.push('/Menu');
     }
 
-    a = JSON.stringify(name);
+    a = JSON.stringify(surname);
 
 
     return(
@@ -73,9 +73,6 @@ const Accueil=(props)=>{
                 
                 <label htmlFor='password'>Mot de passe</label>
                 <input type="password" id="password" onChange={passwordChangeHandler} value={password}/>
-                
-                <h2>{a}</h2>
-
                 
                 
                 <Button onClick={portal1}>Log In</Button>
